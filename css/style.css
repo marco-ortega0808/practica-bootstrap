@@ -1,0 +1,48 @@
+.ancho-verde{
+    height: 55px;
+}
+
+.borde{
+    border:solid 2px !important;
+}
+
+.container-rosa{
+    background: #f999f9;
+}
+
+.container-naranja{
+    background: #ca7249;
+}
+
+.container-azul{
+    background: #180dbd;
+    height: 130px !important;
+    width: 130px !important;
+}
+
+.footer{
+    height: 30px;
+}
+
+@media (max-width: 414.98px) { 
+    .ancho-rojo{
+        height: 55px;
+    }
+
+    .container-rosa{
+        height: 45px;
+    }
+
+    .container-naranja{
+        height: 70px;
+    }
+
+    .container-azul{
+   
+    }
+
+}
+
+@media (max-width: 991.98px) {
+    
+}
