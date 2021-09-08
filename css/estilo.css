@@ -5,3 +5,32 @@
 .borde{
     border:solid 3px #6c757d !important;
 }
+
+@media (max-width: 575.98px) {
+    .contenedor-1, .contenedor-2, .contenedor-3{
+        padding: 0 !important;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) { 
+    .contenedor-1{
+        padding: 0 8px 0 0 !important;
+    }
+
+    .contenedor-2{
+        padding: 0 0 0 8px !important;
+    }
+
+    .contenedor-3{
+        padding: 0 !important;
+        background: #24d132 !important;
+    }
+
+    .align-right {
+        text-align: right !important;
+    }
+
+    .align-center {
+        text-align: center !important;
+    }
+}
