@@ -1,0 +1,31 @@
+.numero-1, .numero-2, .numero-4, .numero-3, .letra-a, .letra-b, .letra-c, .letra-d {
+    height: 130px !important;
+}
+
+.container-1, .container-3, .container-a, .container-c{
+    padding: 0 8px 0 0;
+}
+
+.container-2, .container-4, .container-b, .container-d{
+    padding: 0 0 0 8px;
+}
+
+.container-mobile{
+    padding: 0px;
+}
+
+.container-small, .container-smal{
+    padding: 0;
+}
+
+@media (max-width: 575.98px){
+    .container-small, .container-smal{
+        display: none;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 991.98px){
+    .container-2{
+        padding:0 8px 0 0 !important;
+    }
+}
