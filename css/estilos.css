@@ -32,6 +32,10 @@
 }
 
 @media (min-width: 576px) and (max-width: 991.98px){
+    .numero-1, .numero-2, .numero-4, .numero-3, .letra-a, .letra-b, .letra-c, .letra-d {
+        height: 115px !important;
+    }
+
     .container-2, .container-b, .container-small{
         padding-right: 8px;
     }
