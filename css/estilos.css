@@ -2,50 +2,95 @@
     height: 130px !important;
 }
 
-.header, .footer{
+.header, .footer {
     height: 50px;
 }
 
-.mobile{
+.mobile {
     height: 80px;
 }
-.smile-face, .sad-face{
+.smile-face, .sad-face {
     height: 90px;
 }
 
-.container-1, .container-3, .container-a, .container-c{
+.container-1, .container-3, .container-a, .container-c {
     padding: 0 8px 0 0;
 }
 
-.container-2, .container-4, .container-b, .container-d{
+.container-2, .container-4, .container-b, .container-d {
     padding: 0 0 0 8px;
 }
 
-.container-small, .container-smal, .container-mobile, .container-tablet, .container-desktop{
+.container-small, .container-smal, .container-mobile, .container-tablet, .container-desktop {
     padding: 0;
 }
 
-@media (max-width: 575.98px){
-    .container-smal, .footer, .container-tablet, .container-desktop{
+@media (max-width: 575.98px) {
+    .container-smal, .footer, .container-tablet, .container-desktop {
         display: none;
     }
 }
 
-@media (min-width: 576px) and (max-width: 991.98px){
+@media (min-width: 576px) and (max-width: 991.98px) {
     .numero-1, .numero-2, .numero-4, .numero-3, .letra-a, .letra-b, .letra-c, .letra-d {
         height: 115px !important;
     }
 
-    .container-2, .container-b, .container-small{
+    .container-2, .container-b, .container-small {
         padding-right: 8px;
     }
 
-    .container-3, .container-c, .container-smal{
+    .container-3, .container-c, .container-smal {
         padding-left: 8px;
     }
 
-    .container-mobile, .container-desktop{
+    .container-mobile, .container-desktop {
         display: none;
     }
 }
 
+@media (min-width: 992px) {
+    .numero-1, .numero-4 {
+        margin-left: auto;
+    }
+
+    .container-b, .container-d, .container-smal {
+        padding-right: 8px ;
+    }
+
+    .container-c, .container-a, .container-small {
+        padding-left: 8px;
+    }
+
+    .container-a {
+        padding-right: 0;
+    }
+
+    .container-b{
+        padding-left: 0px;
+    }
+
+    .letra-flip {
+        display: flex;
+    }
+    
+    .container-a {
+        order: 2;
+    }
+
+    .container-mobile, .container-tablet{
+        display: none;
+    }
+
+    .face-flip{
+        display: flex;
+    }
+
+    .container-small{
+        order: 2;
+    }
+
+    .sad-face {
+        margin-left: auto;
+    }
+}
